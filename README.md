@@ -26,16 +26,31 @@ The analysis involves data cleaning, exploration, and visualization using Pandas
 To explore the analysis, follow these steps:
 
 1. Clone the repository:
-   ```
-   git clone https://github.com/your-username/football-league-analysis.git
-   ```
-
-2. Run the main analysis script:
-   ```
-   python main_analysis.py
+   ```bash
+   git clone https://github.com/campospluiza/Football-League-Analysis.git
    ```
 
-3. Explore the generated visualizations and insights.
+2. Navigate to the project directory:
+   ```bash
+   cd Football-League-Analysis
+   ```
+
+3. Install Jupyter and nbconvert (if not installed):
+   ```bash
+   pip install jupyter nbconvert
+   ```
+
+4. Convert the Jupyter Notebook to a Python script:
+   ```bash
+   jupyter nbconvert --to script MainAnalysis.ipynb
+   ```
+
+5. Run the generated Python script:
+   ```bash
+   python MainAnalysis.py
+   ```
+
+6. Explore the generated visualizations and insights.
 
 
 ## Contributing
